@@ -1,0 +1,46 @@
+.bgimage {
+    height:100vh;
+    background: url('images/Pog.png');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+.interestsText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.interestsIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .interestsIcon {
+    color: #008000;
+}
+.interestsText:hover {
+    border: 1px solid #008000;
+}
+.navbarScroll.navbarDark {
+    background-color: black;
+}
